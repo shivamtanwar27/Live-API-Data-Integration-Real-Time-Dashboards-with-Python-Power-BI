@@ -9,12 +9,7 @@ Refreshable Power BI dashboard that ingests ~26 World Bank indicators for 200+ c
 ##  Overview
 This project demonstrates an end-to-end pipeline: automated data ingestion from the World Bank API → data cleaning & transformation in Python → persistent storage (CSV) → interactive visualizations in Power BI. The goal is reproducible, updatable dashboards for policy/stakeholder reporting.
 
-**Key outputs included in this repo**
-- `fetch_worldbank.py` — Python script to download and preprocess indicators
-- `data/` — processed CSV files (or MySQL export scripts)
-- `WorldBankDashboard.pbix` — Power BI Desktop file (open in Power BI to view)
-- `notebooks/` — exploratory notebooks and charts (optional)
-- `README.md` — this file
+
 
 ---
 
